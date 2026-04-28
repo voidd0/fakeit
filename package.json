@@ -1,0 +1,48 @@
+{
+  "name": "@v0idd0/fakeit",
+  "version": "1.0.0",
+  "description": "fakeit \u2014 locale-consistent fake test data: names, addresses, phones, emails, credit cards (Luhn-valid). 58 locales coupled to country, no Russian Johns or Moldovan shekels. Free forever from v\u00f8iddo.",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "fakeit": "./bin/fakeit.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "faker",
+    "fake",
+    "mock",
+    "test-data",
+    "fixtures",
+    "locale",
+    "i18n",
+    "cli",
+    "developer-tools",
+    "voiddo"
+  ],
+  "author": "v\u00f8iddo <support@voiddo.com> (https://voiddo.com)",
+  "license": "MIT",
+  "homepage": "https://tools.voiddo.com/fakeit/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voidd0/fakeit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/voidd0/fakeit/issues",
+    "email": "support@voiddo.com"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ]
+}

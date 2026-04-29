@@ -13,7 +13,7 @@ yuki tanaka,yuki.tanaka@example.com,+81-3-7946-0192
 ## Install
 
 ```bash
-npm install -g pnkd-fakeit
+npm install -g @v0idd0/fakeit
 ```
 
 ## Usage
@@ -64,7 +64,7 @@ fakeit name email phone address company creditCard isbn iban date paragraph
 ## Programmatic API
 
 ```javascript
-import { generate, Faker } from 'pnkd-fakeit';
+import { generate, Faker } from '@v0idd0/fakeit';
 
 // Quick API
 const users = generate(['name', 'email'], 100, 42);
@@ -82,3 +82,7 @@ const user = {
 ## License
 
 MIT — part of the [vøiddo](https://voiddo.com) tools collection.
+
+---
+
+Built by [vøiddo](https://voiddo.com/) — a small studio shipping AI-flavoured products, free dev tools, Chrome extensions and weird browser games.
